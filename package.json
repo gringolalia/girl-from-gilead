@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "gulp --silent",
     "prod": "gulp --silent --production",
-    "start": "gulp --silent --production"
+    "start": "gulp"
   },
   "dependencies": {
     "balm-ui": "^3.2.0",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "gulp": "^4.0.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.0.0",
